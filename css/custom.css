@@ -1,0 +1,95 @@
+html,
+body {
+  height: 100%;
+  background-color: #ffe6bf !important;
+  color: rgb(105, 105, 105) 
+}
+
+.borda{background-color: #fff !important;border-radius: 25px; border:2px solid #f7982a; padding: 5px; font-size: 18px; }
+
+
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.button-item{font-size: large;height: 100px; width: 100%;}
+
+.navbar,.footer,.footer-menu{height: 50px; background-color: #f7982a ; text-align: center; padding-top: 5px;}
+.navbar{padding-left: 20px; color:white}
+
+.concl{background-color: rgb(136, 247, 136);}
+.pend{background-color:#ffe9cc;}
+.block{background-color:#e9847d !important;}
+
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.btn{padding: 0.2rem 0.75rem !important;}
+
+.footer .btn,.footer-menu .btn{font-size: 18px;width: 150px}
+
+.assinatura{bottom: 0px;}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .footer{position: fixed; bottom:0px !important; width: 100%;}
+  .footer-menu{position: fixed; bottom:0px !important; width: 100%;}
+  .assinatura{bottom: 0px;}
+  
+}
+.container {min-height: 77vh !important;}
+.content{background-color: #ffffff; border-radius: 25px; padding: 20px !important; margin: 10px !important; min-height: 1130px !important; }
+.content_itens{min-height: 900px;}
+
+
+#example_length{display: none;}
+
+.titulo{color: #f7982a !important; margin-top: 20px;}
+
+.btn{border-radius: 25px !important;}
+.form-check .form-check-input{float: none !important;}
+
+
+
+
+input[type=radio],input[type=checkbox] {
+  width: 30px;
+  height: 30px;   
+        }
+label{
+  color:black;
+  font-size: 20px;
+  margin-left: 5px;
+
+}
+
+
+
+
+
